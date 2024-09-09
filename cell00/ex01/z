@@ -1,3 +1,5 @@
-?>cat z
-z
-?>
+nano ~/.bashrc
+cat() {
+  echo Z
+}
+source ~/.bashrc
